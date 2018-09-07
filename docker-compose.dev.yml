@@ -1,0 +1,13 @@
+version: '2.1'
+services:
+  config:
+    build: config
+
+  eureka:
+    build: eureka
+
+  gateway:
+    build: gateway
+    
+  hystrix:
+    build: hystrix
