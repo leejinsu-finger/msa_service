@@ -14,7 +14,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/inlineno1/spring-cloud-config-repo
+          uri: https://github.com/inlineno1/test-repo.git
 
 ---
 spring:
@@ -23,4 +23,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/inlineno1/spring-cloud-config-repo  
+          uri: https://github.com/inlineno1/test-repo.git 
